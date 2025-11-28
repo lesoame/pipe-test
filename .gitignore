@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+data/inbox/*
+data/history/*
+data/output/*
+!data/inbox/.gitkeep
+!data/history/.gitkeep
+!data/output/.gitkeep
+pg_data/
