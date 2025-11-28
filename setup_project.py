@@ -390,7 +390,7 @@ structure = {
     f"{BASE_DIR}/data/inbox/sales_20251128.csv": TEST_SALES
 }
 
-print(f"🔨 Gerando projeto em '{BASE_DIR}'...")
+print(f" Gerando projeto em '{BASE_DIR}'...")
 
 for path, content in structure.items():
     create_file(path, content)
